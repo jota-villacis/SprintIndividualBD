@@ -49,9 +49,9 @@ Consideraciones adicionales
 -- Construya una base de datos. Asigne un usuario con todos los privilegios. Construya las tablas.
 CREATE DATABASE sprint_individual;
 -- CREAR USUARIO
-CREATE USER adminsprint IDENTIFIED BY 'admintest';
+CREATE USER ******* IDENTIFIED BY '*******';
 -- ASIGNAR PERMISOS LECTURA Y ESCRITURA TODAS LA TABLAS
-GRANT SELECT, INSERT, UPDATE, CREATE ON sprint_individual . * TO adminsprint;
+GRANT SELECT, INSERT, UPDATE, CREATE ON sprint_individual . * TO *******;
 -- ACTUALIZAR PERMISOS
 FLUSH PRIVILEGES;
 -- VERIFICAR USUARIO
